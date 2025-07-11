@@ -4,7 +4,8 @@
     "description": "Test2"
   },
   "Layout": {
-    "title": "teste4",
-    "description": "test6"
+    "title": "teste55",
+    "description": "test6",
+    "subtitle": "This is a subtitle for the layout"
   }
 }

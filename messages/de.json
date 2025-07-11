@@ -5,6 +5,7 @@
   },
   "Layout": {
     "title": "teste65",
-    "description": "test6"
+    "description": "test6",
+    "subtitle": "Dies ist ein Untertitel für das Layout"
   }
 }
