@@ -1,10 +1,7 @@
 project_id: 807766
 api_token: 711da0979a4781fd34cd7e79402990ad793ca7fa5bf47cdd29a87a66c6bce91416f99b185b9df923
-"preserve_hierarchy": true
-base_path: './messages/'
-files: [
-  {
-   "source": /en.json,
-   "translation": /%locale%.json
-  }
-]
+preserve_hierarchy: 1
+base_path: ./messages/
+files:
+  - source: /messages/en.json
+    translation: /%original_path%/%two_letters_code%.json
