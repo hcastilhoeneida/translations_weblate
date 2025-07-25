@@ -1,0 +1,1 @@
+"use strict";exports.id=368,exports.ids=[368],exports.modules={7368:t=>{t.exports=JSON.parse('{"Index":{"title":"Welcome To Next.js","description":"Test2"},"Layout":{"title":"teste55","description":"test6 for testing","subtitle":"This is a subtitle for the layout"},"teste":"hello","test3":"test3","en_test":"test_en"}')}};
