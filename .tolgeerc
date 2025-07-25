@@ -1,0 +1,18 @@
+{
+  "projectId": "20003",
+  "format": "JSON_TOLGEE",
+  "patterns": [
+    "./src/**/*.ts?(x)"
+  ],
+  "push": {
+    "filesTemplate": "./translations/{languageTag}.json",
+    "languages": [
+      "en",
+      "de"
+    ],
+    "forceMode": "OVERRIDE"
+  },
+  "pull": {
+    "path": "./translations"
+  }
+}
