@@ -10,5 +10,20 @@ collections:
     name: "translations"
     folder: "translations"
     create: true
+    extension: "json"
+    format: "json"
+    identifier_field: "filename"
+    summary: "{{filename}}"
     fields:
-     - {label: "Key", name: "key", widget: "string"}
+      - label: "File Name"
+        name: "filename"
+        widget: "string"
+        hint: "e.g., en, de, en-AU (without .json extension)"
+        pattern: ['^[a-zA-Z]{2}(-[a-zA-Z]{2})?$', 'Please use language codes like en, de, en-AU']
+      
+      - label: "Raw JSON Content"
+        name: "body"
+        widget: "code"
+        default_language: "json"
+        allow_language_selection: false
+        hint: "Edit your translations directly as JSON. This gives you full control over the structure."
