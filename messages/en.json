@@ -7,5 +7,8 @@
     "title": "teste55",
     "description": "test6 for testing",
     "subtitle": "This is a subtitle for the layout"
-  }
+  },
+  "teste": "hello",
+  "test3": "test3",
+  "en_test": "test_en"
 }
