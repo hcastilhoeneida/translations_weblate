@@ -1,0 +1,14 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - label: "Translations"
+    name: "translations"
+    folder: "translations"
+    create: true
+    fields:
+     - {label: "Key", name: "key", widget: "string"}
