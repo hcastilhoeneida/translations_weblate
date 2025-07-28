@@ -21,8 +21,10 @@ collections:
       structure: multiple_files
       locales: [en, de, en_AU, en_NZ]
     create: true
-    fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        i18n: true
+fields:
+  - label: "Translations"
+    name: "body"
+    widget: "code"
+    default_language: "json"
+    allow_language_selection: false
+    i18n: true
