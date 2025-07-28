@@ -3,6 +3,8 @@ backend:
   name: git-gateway
   repo: hcastilhoeneida/translations_weblate
   branch: main
+  identity_url: https://auth.decapbridge.com/sites/41c1fd8f-a497-4f53-a9bc-75f164f006ec
+  gateway_url: https://gateway.decapbridge.com
 
 i18n:
   structure: multiple_files
