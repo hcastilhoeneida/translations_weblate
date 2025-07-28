@@ -5,26 +5,24 @@ backend:
   branch: main
   identity_url: https://auth.decapbridge.com/sites/41c1fd8f-a497-4f53-a9bc-75f164f006ec
   gateway_url: https://gateway.decapbridge.com
-
 i18n:
   structure: multiple_files
   locales: [en, de, en_AU, en_NZ]
   default_locale: en
-
-
 media_folder: "public/images"
 public_folder: "/images"
-
 collections:
   - label: "Translations"
     name: "translations"
     folder: "translations"
+    extension: "json"
+    format: "json"
     i18n:
       structure: multiple_files
       locales: [en, de, en_AU, en_NZ]
     create: true
     fields:
       - label: "Title"
-        name: "fileTitle"
+        name: "title"
         widget: "string"
         i18n: true
