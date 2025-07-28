@@ -21,9 +21,14 @@ collections:
       structure: multiple_files
       locales: [en, de, en_AU, en_NZ]
     create: true
+    identifier_field: "name"
     fields:
+      - label: "File Name"
+        name: "name"
+        widget: "string"
+        i18n: false
       - label: "Translations"
-        name: "body"
+        name: "translations"
         widget: "code"
         default_language: "json"
         allow_language_selection: false
