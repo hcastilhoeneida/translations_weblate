@@ -2,7 +2,7 @@
   "title": "teste",
   "translations": {
     "lang": "json",
-    "code": "test"
+    "code": "test\ntest demo"
   },
   "name": "ola.txt"
 }
