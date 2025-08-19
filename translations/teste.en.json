@@ -1,3 +1,8 @@
 {
-  "title": "teste"
+  "title": "teste",
+  "translations": {
+    "lang": "json",
+    "code": "test"
+  },
+  "name": "ola.txt"
 }
