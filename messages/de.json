@@ -4,8 +4,11 @@
     "description": "Test2 - DE"
   },
   "Layout": {
-    "title": "teste65",
-    "description": "test6",
+    "title": "teste demo title",
+    "description": "test6 for testing",
     "subtitle": "Dies ist ein Untertitel für das Layout"
-  }
+  },
+  "teste": "hello",
+  "test3": "test3",
+  "en_test": "test_en"
 }
